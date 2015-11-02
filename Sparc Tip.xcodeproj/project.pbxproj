@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1841B41BE7256800193182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841B31BE7256800193182 /* AppDelegate.swift */; };
+		DE1841B61BE7256800193182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841B51BE7256800193182 /* ViewController.swift */; };
+		DE1841B91BE7256800193182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1841B71BE7256800193182 /* Main.storyboard */; };
+		DE1841BB1BE7256800193182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1841BA1BE7256800193182 /* Assets.xcassets */; };
+		DE1841BE1BE7256800193182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1841BC1BE7256800193182 /* LaunchScreen.storyboard */; };
+		DE1841C91BE7256800193182 /* Sparc_TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841C81BE7256800193182 /* Sparc_TipTests.swift */; };
+		DE1841D41BE7256800193182 /* Sparc_TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841D31BE7256800193182 /* Sparc_TipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1841C51BE7256800193182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1841A81BE7256800193182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1841AF1BE7256800193182;
+			remoteInfo = "Sparc Tip";
+		};
+		DE1841D01BE7256800193182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1841A81BE7256800193182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1841AF1BE7256800193182;
+			remoteInfo = "Sparc Tip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1841B01BE7256800193182 /* Sparc Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sparc Tip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1841B31BE7256800193182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE1841B51BE7256800193182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE1841B81BE7256800193182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1841BA1BE7256800193182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1841BD1BE7256800193182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1841BF1BE7256800193182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1841C41BE7256800193182 /* Sparc TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sparc TipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1841C81BE7256800193182 /* Sparc_TipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sparc_TipTests.swift; sourceTree = "<group>"; };
+		DE1841CA1BE7256800193182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1841CF1BE7256800193182 /* Sparc TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sparc TipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1841D31BE7256800193182 /* Sparc_TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sparc_TipUITests.swift; sourceTree = "<group>"; };
+		DE1841D51BE7256800193182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1841AD1BE7256800193182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1841C11BE7256800193182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1841CC1BE7256800193182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1841A71BE7256800193182 = {
+			isa = PBXGroup;
+			children = (
+				DE1841B21BE7256800193182 /* Sparc Tip */,
+				DE1841C71BE7256800193182 /* Sparc TipTests */,
+				DE1841D21BE7256800193182 /* Sparc TipUITests */,
+				DE1841B11BE7256800193182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1841B11BE7256800193182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1841B01BE7256800193182 /* Sparc Tip.app */,
+				DE1841C41BE7256800193182 /* Sparc TipTests.xctest */,
+				DE1841CF1BE7256800193182 /* Sparc TipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1841B21BE7256800193182 /* Sparc Tip */ = {
+			isa = PBXGroup;
+			children = (
+				DE1841B31BE7256800193182 /* AppDelegate.swift */,
+				DE1841B51BE7256800193182 /* ViewController.swift */,
+				DE1841B71BE7256800193182 /* Main.storyboard */,
+				DE1841BA1BE7256800193182 /* Assets.xcassets */,
+				DE1841BC1BE7256800193182 /* LaunchScreen.storyboard */,
+				DE1841BF1BE7256800193182 /* Info.plist */,
+			);
+			path = "Sparc Tip";
+			sourceTree = "<group>";
+		};
+		DE1841C71BE7256800193182 /* Sparc TipTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1841C81BE7256800193182 /* Sparc_TipTests.swift */,
+				DE1841CA1BE7256800193182 /* Info.plist */,
+			);
+			path = "Sparc TipTests";
+			sourceTree = "<group>";
+		};
+		DE1841D21BE7256800193182 /* Sparc TipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1841D31BE7256800193182 /* Sparc_TipUITests.swift */,
+				DE1841D51BE7256800193182 /* Info.plist */,
+			);
+			path = "Sparc TipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1841AF1BE7256800193182 /* Sparc Tip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1841D81BE7256800193182 /* Build configuration list for PBXNativeTarget "Sparc Tip" */;
+			buildPhases = (
+				DE1841AC1BE7256800193182 /* Sources */,
+				DE1841AD1BE7256800193182 /* Frameworks */,
+				DE1841AE1BE7256800193182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sparc Tip";
+			productName = "Sparc Tip";
+			productReference = DE1841B01BE7256800193182 /* Sparc Tip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1841C31BE7256800193182 /* Sparc TipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1841DB1BE7256800193182 /* Build configuration list for PBXNativeTarget "Sparc TipTests" */;
+			buildPhases = (
+				DE1841C01BE7256800193182 /* Sources */,
+				DE1841C11BE7256800193182 /* Frameworks */,
+				DE1841C21BE7256800193182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1841C61BE7256800193182 /* PBXTargetDependency */,
+			);
+			name = "Sparc TipTests";
+			productName = "Sparc TipTests";
+			productReference = DE1841C41BE7256800193182 /* Sparc TipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1841CE1BE7256800193182 /* Sparc TipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1841DE1BE7256800193182 /* Build configuration list for PBXNativeTarget "Sparc TipUITests" */;
+			buildPhases = (
+				DE1841CB1BE7256800193182 /* Sources */,
+				DE1841CC1BE7256800193182 /* Frameworks */,
+				DE1841CD1BE7256800193182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1841D11BE7256800193182 /* PBXTargetDependency */,
+			);
+			name = "Sparc TipUITests";
+			productName = "Sparc TipUITests";
+			productReference = DE1841CF1BE7256800193182 /* Sparc TipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1841A81BE7256800193182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "CK Sparc";
+				TargetAttributes = {
+					DE1841AF1BE7256800193182 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C7Y7MK9LFH;
+					};
+					DE1841C31BE7256800193182 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C7Y7MK9LFH;
+						TestTargetID = DE1841AF1BE7256800193182;
+					};
+					DE1841CE1BE7256800193182 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C7Y7MK9LFH;
+						TestTargetID = DE1841AF1BE7256800193182;
+					};
+				};
+			};
+			buildConfigurationList = DE1841AB1BE7256800193182 /* Build configuration list for PBXProject "Sparc Tip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1841A71BE7256800193182;
+			productRefGroup = DE1841B11BE7256800193182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1841AF1BE7256800193182 /* Sparc Tip */,
+				DE1841C31BE7256800193182 /* Sparc TipTests */,
+				DE1841CE1BE7256800193182 /* Sparc TipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1841AE1BE7256800193182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1841BE1BE7256800193182 /* LaunchScreen.storyboard in Resources */,
+				DE1841BB1BE7256800193182 /* Assets.xcassets in Resources */,
+				DE1841B91BE7256800193182 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1841C21BE7256800193182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1841CD1BE7256800193182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1841AC1BE7256800193182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1841B61BE7256800193182 /* ViewController.swift in Sources */,
+				DE1841B41BE7256800193182 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1841C01BE7256800193182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1841C91BE7256800193182 /* Sparc_TipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1841CB1BE7256800193182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1841D41BE7256800193182 /* Sparc_TipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1841C61BE7256800193182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1841AF1BE7256800193182 /* Sparc Tip */;
+			targetProxy = DE1841C51BE7256800193182 /* PBXContainerItemProxy */;
+		};
+		DE1841D11BE7256800193182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1841AF1BE7256800193182 /* Sparc Tip */;
+			targetProxy = DE1841D01BE7256800193182 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1841B71BE7256800193182 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1841B81BE7256800193182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1841BC1BE7256800193182 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1841BD1BE7256800193182 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1841D61BE7256800193182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE1841D71BE7256800193182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1841D91BE7256800193182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sparc Tip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CKSparc.Sparc-Tip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE1841DA1BE7256800193182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sparc Tip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CKSparc.Sparc-Tip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE1841DC1BE7256800193182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sparc TipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CKSparc.Sparc-TipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparc Tip.app/Sparc Tip";
+			};
+			name = Debug;
+		};
+		DE1841DD1BE7256800193182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sparc TipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CKSparc.Sparc-TipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparc Tip.app/Sparc Tip";
+			};
+			name = Release;
+		};
+		DE1841DF1BE7256800193182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sparc TipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CKSparc.Sparc-TipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sparc Tip";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE1841E01BE7256800193182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sparc TipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CKSparc.Sparc-TipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sparc Tip";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1841AB1BE7256800193182 /* Build configuration list for PBXProject "Sparc Tip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1841D61BE7256800193182 /* Debug */,
+				DE1841D71BE7256800193182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1841D81BE7256800193182 /* Build configuration list for PBXNativeTarget "Sparc Tip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1841D91BE7256800193182 /* Debug */,
+				DE1841DA1BE7256800193182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE1841DB1BE7256800193182 /* Build configuration list for PBXNativeTarget "Sparc TipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1841DC1BE7256800193182 /* Debug */,
+				DE1841DD1BE7256800193182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE1841DE1BE7256800193182 /* Build configuration list for PBXNativeTarget "Sparc TipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1841DF1BE7256800193182 /* Debug */,
+				DE1841E01BE7256800193182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1841A81BE7256800193182 /* Project object */;
+}
