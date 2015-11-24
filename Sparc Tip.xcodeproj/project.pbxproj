@@ -14,6 +14,10 @@
 		DE1841BE1BE7256800193182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1841BC1BE7256800193182 /* LaunchScreen.storyboard */; };
 		DE1841C91BE7256800193182 /* Sparc_TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841C81BE7256800193182 /* Sparc_TipTests.swift */; };
 		DE1841D41BE7256800193182 /* Sparc_TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841D31BE7256800193182 /* Sparc_TipUITests.swift */; };
+		DE1841E31BE7272D00193182 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841E11BE7272D00193182 /* View1.swift */; };
+		DE1841E41BE7272D00193182 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1841E21BE7272D00193182 /* View1.xib */; };
+		DE1841E71BE7295200193182 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1841E51BE7295200193182 /* View2.swift */; };
+		DE1841E81BE7295200193182 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1841E61BE7295200193182 /* View2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		DE1841CF1BE7256800193182 /* Sparc TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sparc TipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1841D31BE7256800193182 /* Sparc_TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sparc_TipUITests.swift; sourceTree = "<group>"; };
 		DE1841D51BE7256800193182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1841E11BE7272D00193182 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		DE1841E21BE7272D00193182 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		DE1841E51BE7295200193182 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		DE1841E61BE7295200193182 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				DE1841B31BE7256800193182 /* AppDelegate.swift */,
 				DE1841B51BE7256800193182 /* ViewController.swift */,
 				DE1841B71BE7256800193182 /* Main.storyboard */,
+				DE1841E51BE7295200193182 /* View2.swift */,
+				DE1841E61BE7295200193182 /* View2.xib */,
+				DE1841E11BE7272D00193182 /* View1.swift */,
+				DE1841E21BE7272D00193182 /* View1.xib */,
 				DE1841BA1BE7256800193182 /* Assets.xcassets */,
 				DE1841BC1BE7256800193182 /* LaunchScreen.storyboard */,
 				DE1841BF1BE7256800193182 /* Info.plist */,
@@ -234,6 +246,8 @@
 			files = (
 				DE1841BE1BE7256800193182 /* LaunchScreen.storyboard in Resources */,
 				DE1841BB1BE7256800193182 /* Assets.xcassets in Resources */,
+				DE1841E41BE7272D00193182 /* View1.xib in Resources */,
+				DE1841E81BE7295200193182 /* View2.xib in Resources */,
 				DE1841B91BE7256800193182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1841B61BE7256800193182 /* ViewController.swift in Sources */,
+				DE1841E31BE7272D00193182 /* View1.swift in Sources */,
 				DE1841B41BE7256800193182 /* AppDelegate.swift in Sources */,
+				DE1841E71BE7295200193182 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
